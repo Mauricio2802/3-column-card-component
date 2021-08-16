@@ -125,6 +125,7 @@ button {
   color: black;
   font-size: 1.5rem;
   font-family: var(--lexend);
+  text-align: center;
 }
 a {
   color: var(--cyan-100);
