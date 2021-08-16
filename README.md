@@ -28,14 +28,17 @@ Users should be able to:
 
 Mobile:
 
+![mobile](https://user-images.githubusercontent.com/70554280/129499177-d7d8f2dd-1c07-46c0-9c2c-acf15aeda0f9.png)
+
 
 Desktop:
 
+![desktop](https://user-images.githubusercontent.com/70554280/129499184-c7316f35-5c9a-40f9-a9e4-02832c2e5eaa.png)
 
 
 ### Links
 
-- Solution URL: [Github repository]()
+- Solution URL: [Github repository](https://github.com/Mauricio2802/3-column-card-component)
 - Live Site URL: [Website]()
 
 ## My process
@@ -45,29 +48,19 @@ Desktop:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
-...
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+I learned how to organize better my css classes and my css code
 
 ### Continued development
 
-...
+The project finished here, but I'll go ahead with more challenges :D
 
 ### Useful resources
 
-- [Example resource 1]() - ...
+- I don't needed any resource in this ocasion.
 
 ## Author
 
