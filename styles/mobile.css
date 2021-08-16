@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--white);
+}
+html {
+  font-size: 62.5%;
+}
+body,
+html {
+  min-height: 100vh;
+}
+
+/* Principal palette */
+:root {
+  /* Primary */
+  --orange: hsl(31, 77%, 52%);
+  --cyan-200: hsl(184, 100%, 22%);
+  --cyan-100: hsl(179, 100%, 13%);
+  /* Neutral */
+  --white: hsla(0, 0%, 100%, 0.75);
+  --gray: hsl(0, 0%, 95%);
+  /* Font-size */
+  --primary-font-size: 1.5rem;
+  /* Font-family */
+  --lexend: "Lexend Deca", sans-serif;
+  --display: "Big Shoulders Display", cursive;
+}
+
+/* MAIN */
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  margin-bottom: 20px;
+
+  background: var(--white);
+}
+
+.article {
+  height: 420px;
+}
+.article-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 30px 40px;
+}
+
+/* Bg article color*/
+
+.bg-orange {
+  background: var(--orange);
+  border-radius: 10px 10px 0 0;
+}
+.bg-cyan-200 {
+  background: var(--cyan-200);
+}
+.bg-cyan-100 {
+  background: var(--cyan-100);
+  border-radius: 0 0 10px 10px;
+}
+
+button {
+  padding: 14px 27px;
+  background: var(--gray);
+  border: none;
+  border-radius: 30px;
+  outline: none;
+}
+button:hover {
+  cursor: pointer;
+  color: var(--white);
+  border: 2px solid var(--white);
+  background: none;
+}
+
+/* Color and typography */
+
+h2 {
+  color: var(--gray);
+  font-size: 3.7rem;
+  font-family: var(--display);
+}
+p {
+  color: var(--white);
+  font-size: 1.5rem;
+  font-family: var(--lexend);
+  line-height: 2.4rem;
+}
+button {
+  font-size: 1.5rem;
+  font-family: var(--lexend);
+}
+.btn-orange {
+  color: var(--orange);
+}
+.btn-cyan-200 {
+  color: var(--cyan-200);
+}
+.btn-cyan-100 {
+  color: var(--cyan-100);
+}
+
+/* Attribution */
+
+.attribution {
+  color: black;
+  font-size: 1.5rem;
+  font-family: var(--lexend);
+}
+a {
+  color: var(--cyan-100);
+}
+a:hover {
+  cursor: pointer;
+  border: 2px solid var(--cyan-100);
+  background: none;
+  text-decoration: none;
+}

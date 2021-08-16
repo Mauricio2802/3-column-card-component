@@ -1,0 +1,35 @@
+html {
+  font-size: 70%;
+}
+main {
+  height: 100vh;
+  padding: 0;
+}
+section {
+  flex-direction: row;
+  justify-content: center;
+  min-width: 940px;
+}
+.article {
+  height: 480px;
+}
+.article-info {
+  justify-content: flex-start;
+  padding: 35px 45px;
+}
+.article-info img,
+.article-info h2 {
+  margin-bottom: 30px;
+}
+.article-info p {
+  margin-bottom: 70px;
+  font-size: 1.4rem;
+}
+
+/* Border-radius */
+.bg-orange {
+  border-radius: 10px 0 0 10px;
+}
+.bg-cyan-100 {
+  border-radius: 0 10px 10px 0;
+}
